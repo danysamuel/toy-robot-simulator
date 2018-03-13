@@ -14,7 +14,7 @@ public class ToyRobotMain {
         Console console = System.console();
 
         if (console == null) {
-            System.err.println("No console.");
+            System.err.println("No console.msg");
             System.exit(1);
         }
 
