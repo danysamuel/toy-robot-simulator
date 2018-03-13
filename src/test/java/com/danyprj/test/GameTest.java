@@ -26,7 +26,7 @@ public class GameTest {
         Game game = new Game(board, toyRobot);
 
         Assert.assertTrue(game.placeToyRobot(new Position(0, 1, Direction.NORTH)));
-        Assert.assertTrue(game.placeToyRobot(new Position(2, 2, Direction.SOUTH)));
+        Assert.assertTrue(game.placeToyRobot(new Position(3, 2, Direction.SOUTH)));
         Assert.assertFalse(game.placeToyRobot(new Position(6, 6, Direction.WEST)));
         Assert.assertFalse(game.placeToyRobot(new Position(-1, 5, Direction.EAST)));
     }
